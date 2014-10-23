@@ -1,9 +1,9 @@
 .hflex-wrapper {
-  display: -webkit-box; 
+  display: -webkit-box;
   -webkit-box-orient: horizontal;
-  display: -moz-box; 
+  display: -moz-box;
   -moz-box-orient: horizontal;
-  display: box; 
+  display: box;
   box-orient: horizontal;
   position: absolute;
   top: 0;
@@ -12,13 +12,13 @@
 }
 
 .vflex-wrapper50 {
-  display: -webkit-box; 
+  display: -webkit-box;
   -webkit-box-orient: vertical;
-  display: -moz-box; 
+  display: -moz-box;
   -moz-box-orient: vertical;
-  display: box; 
+  display: box;
   box-orient: vertical;
-  height: 100%; 
+  height: 100%;
   width: 50%;
 }
 
@@ -44,8 +44,8 @@ article, section, footer, header, nav, hgroup {
 body {
   margin: 0 auto;
   padding: 0;
-  height: 100%; 
-  overflow: hidden; 
+  height: 100%;
+  overflow: hidden;
 }
 
 #schedule > * {
@@ -55,11 +55,11 @@ body {
   margin: 0;
 }
 
-#tweets { 
-  top: 0; 
-  height: 100%; 
-  width: 100%; 
-  overflow: hidden; 
+#tweets {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 a {
@@ -73,7 +73,7 @@ img.pic {
   margin: 20px auto;
 }
 
-#tweets { font-size: 0.9em; }
+#tweets { font-size: 2em; }
 #tweets p { margin: 14px;}
 #tweets a:hover, #tweets a:active, #tweets a:focus, #tweets a { text-decoration: none; }
 #tweets a:hover { text-decoration: underline; }
@@ -82,7 +82,7 @@ img.pic {
 .tweet { clear: left; min-height: 48px; padding: 9px; line-height: 1; position: relative; }
 #tweets li.searchterm { font-size: 22px; padding: 20px 0; }
 .vcard { margin-top: 0px; float: left;}
-.hentry { margin-left: 58px; }
+.hentry { margin-left: 168px; }
 .hentry .meta { font-size: 0.764em; margin: 3px 0 0; display: block; }
 #tweets { background-repeat: no-repeat; background-position: -200px 250px; }
 

@@ -298,7 +298,7 @@ function renderTweet(data) {
     id: data.id_str,
     screen_name: data.user.screen_name,
     name: data.user.name,
-    profile_image_url: data.user.profile_image_url,
+    profile_image_url: data.user.profile_image_url.replace('_normal', ''),
     created_at: data.created_at,
     nice_date: twitterlib.time.datetime(data.created_at),
     embeds: embeds,

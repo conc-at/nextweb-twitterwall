@@ -92,8 +92,10 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(/images/placeholder.jpg);
 }
 
-#schedule[data-time="1230"] {
-  background-image: url(/images/simon.jpg);
+#schedule[data-time="1030"] {
+  background-size: contain;
+  background-color: white;
+  background-image: url(http://hood.ie/images/f5af4e56.hoodie_logo.png);
 }
 
 #notices > div {
